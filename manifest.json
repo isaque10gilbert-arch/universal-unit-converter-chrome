@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Conversor Universal: Medidas, Comprimento e Polegadas",
+  "version": "1.5",
+  "description": "Converta KM, M, CM, MM e Polegadas instantaneamente com um clique. A ferramenta definitiva para cálculos rápidos.",
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
